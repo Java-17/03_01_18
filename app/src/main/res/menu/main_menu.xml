@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/done_item"
+        android:title="Done"
+        android:icon="@drawable/ic_action_done"
+        android:visible="false"
+        app:showAsAction="always"/>
+    <item android:id="@+id/edit_item"
+        android:title="Edit"
+        android:icon="@drawable/ic_action_edit"
+        app:showAsAction="always"/>
+    <item android:id="@+id/setting_item"
+        android:title="Settings"/>
+</menu>
